@@ -9,18 +9,18 @@ import HomepageFeatures from '../components/HomepageFeatures';
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
+    <header className={clsx('hero', styles.heroBanner)}>
       <div className="container">
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
           <Link
-            className="button button--primary button--lg"
+            className="button button--primary button--lg margin-horiz--sm"
             to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            User Manuals
           </Link>
           <Link
-            className="button button--secondary button--lg"
+            className="button button--secondary button--lg margin-horiz--sm"
             to="/docs/intro">
             Developer Docs
           </Link>
@@ -35,10 +35,9 @@ export default function Home() {
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      description="Trient, built on Mixin Network, is the most easy-to-use NFT Marketplace in the world.">
       <HomepageHeader />
       <main>
-        <HomepageFeatures />
       </main>
     </Layout>
   );

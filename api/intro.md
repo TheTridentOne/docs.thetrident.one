@@ -1,7 +1,6 @@
 ---
+title: Introduction
 sidebar_position: 1
 ---
-
-# Trident Introduction
 
 WIP

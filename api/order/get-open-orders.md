@@ -1,7 +1,6 @@
 ---
+title: Get Open Orders
 sidebar_position: 1
 ---
-
-# Trident Introduction
 
 WIP

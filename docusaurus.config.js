@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Trident',
+  title: 'Trident Docs',
   tagline: 'Trident is cool',
   url: 'https://thetrident.one',
   baseUrl: '/',
@@ -22,7 +22,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: require.resolve('./sidebar.docs.js'),
           // Please change this to your repo.
           editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
@@ -39,11 +39,27 @@ const config = {
     ],
   ],
 
+  plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'api',
+        path: 'api',
+        routeBasePath: 'api',
+        editCurrentVersion: false,
+        sidebarPath: require.resolve('./sidebar.api.js'),
+        showLastUpdateAuthor: false,
+        showLastUpdateTime: true,
+      },
+    ],
+    // 'docusaurus-plugin-sass'
+  ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Trident',
+        title: 'Trident Docs',
         logo: {
           alt: 'Trident Logo',
           src: 'img/logo.png',
@@ -53,7 +69,12 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'User Manuals',
+          },
+          {
+            to: '/api/intro', 
+            label: 'API', 
+             activeBaseRegex: `/api/`,
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
@@ -70,8 +91,12 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'User Menuals',
+                label: 'User Manuals',
                 to: '/docs/intro',
+              },
+              {
+                label: 'API Docs',
+                to: '/api/intro',
               },
             ],
           },
@@ -79,16 +104,8 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/trident_nft',
               },
             ],
           },
@@ -101,12 +118,12 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/TheTridentOne/docs.thetrident.one',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Trident, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
