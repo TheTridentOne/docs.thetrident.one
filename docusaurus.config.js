@@ -24,13 +24,13 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebar.docs.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/TheTridentOne/docs.thetrident.one/tree/main/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/TheTridentOne/docs.thetrident.one/tree/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -47,6 +47,7 @@ const config = {
         path: 'api',
         routeBasePath: 'api',
         editCurrentVersion: false,
+        editUrl: 'https://github.com/TheTridentOne/docs.thetrident.one/tree/main/',
         sidebarPath: require.resolve('./sidebar.api.js'),
         showLastUpdateAuthor: false,
         showLastUpdateTime: true,
