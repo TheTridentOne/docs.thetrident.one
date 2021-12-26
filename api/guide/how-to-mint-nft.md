@@ -3,6 +3,12 @@ title: How to Mint NFT
 sidebar_position: 1
 ---
 
+:::tip
+
+This is a guide for developers who want to mint NFTs for their users. For normal users, just use a Dapp like [Trident](https://thetrident.one) to mint your NFT in a friendly web UI. 
+
+:::
+
 The typical steps to mint NFT on Mixin Network:
 
 1. Prepare `metadata.json` for your NFT
