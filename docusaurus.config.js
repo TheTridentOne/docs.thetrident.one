@@ -1,39 +1,40 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const lightCodeTheme = require("prism-react-renderer/themes/github");
+const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Trident Docs',
-  tagline: 'Trident is cool',
-  url: 'https://thetrident.one',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-  organizationName: 'TheTridentOne', // Usually your GitHub org/user name.
-  projectName: 'docs.thetrident.one', // Usually your repo name.
+  title: "Trident Docs",
+  tagline: "Trident is cool",
+  url: "https://thetrident.one",
+  baseUrl: "/",
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
+  favicon: "img/favicon.ico",
+  organizationName: "TheTridentOne", // Usually your GitHub org/user name.
+  projectName: "docs.thetrident.one", // Usually your repo name.
 
   presets: [
     [
-      'classic',
+      "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve('./sidebar.docs.js'),
+          sidebarPath: require.resolve("./sidebar.docs.js"),
           // Please change this to your repo.
-          editUrl: 'https://github.com/TheTridentOne/docs.thetrident.one/tree/main/',
+          editUrl:
+            "https://github.com/TheTridentOne/docs.thetrident.one/tree/main/",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/TheTridentOne/docs.thetrident.one/tree/main/',
+            "https://github.com/TheTridentOne/docs.thetrident.one/tree/main/",
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
       }),
     ],
@@ -41,14 +42,15 @@ const config = {
 
   plugins: [
     [
-      '@docusaurus/plugin-content-docs',
+      "@docusaurus/plugin-content-docs",
       {
-        id: 'api',
-        path: 'api',
-        routeBasePath: 'api',
+        id: "api",
+        path: "api",
+        routeBasePath: "api",
         editCurrentVersion: false,
-        editUrl: 'https://github.com/TheTridentOne/docs.thetrident.one/tree/main/',
-        sidebarPath: require.resolve('./sidebar.api.js'),
+        editUrl:
+          "https://github.com/TheTridentOne/docs.thetrident.one/tree/main/",
+        sidebarPath: require.resolve("./sidebar.api.js"),
         showLastUpdateAuthor: false,
         showLastUpdateTime: true,
       },
@@ -60,66 +62,71 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Trident Docs',
+        title: "Trident Docs",
         logo: {
-          alt: 'Trident Logo',
-          src: 'img/logo.png',
+          alt: "Trident Logo",
+          src: "img/logo.png",
         },
         items: [
           {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'User Manuals',
+            type: "doc",
+            docId: "intro",
+            position: "left",
+            label: "Manuals",
+            title: "User Manuals",
           },
           {
-            to: '/api/intro', 
-            label: 'API', 
-             activeBaseRegex: `/api/`,
+            to: "/api/intro",
+            label: "API",
+            activeBaseRegex: `/api/`,
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          { to: "/blog", label: "Blog", position: "left" },
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
+            type: "localeDropdown",
+            position: "right",
+          },
+          {
+            href: "https://github.com/facebook/docusaurus",
+            label: "GitHub",
+            position: "right",
           },
         ],
       },
       footer: {
-        style: 'dark',
+        style: "dark",
         links: [
           {
-            title: 'Docs',
+            title: "Docs",
             items: [
               {
-                label: 'User Manuals',
-                to: '/docs/intro',
+                label: "User Manuals",
+                to: "/docs/intro",
               },
               {
-                label: 'API Docs',
-                to: '/api/intro',
+                label: "API Docs",
+                to: "/api/intro",
               },
             ],
           },
           {
-            title: 'Community',
+            title: "Community",
             items: [
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/trident_nft',
+                label: "Twitter",
+                href: "https://twitter.com/trident_nft",
               },
             ],
           },
           {
-            title: 'More',
+            title: "More",
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: "Blog",
+                to: "/blog",
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/TheTridentOne/docs.thetrident.one',
+                label: "GitHub",
+                href: "https://github.com/TheTridentOne/docs.thetrident.one",
               },
             ],
           },
@@ -131,6 +138,11 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
+
+  i18n: {
+    defaultLocale: "en",
+    locales: ["en", "zh-CN"],
+  },
 };
 
 module.exports = config;
