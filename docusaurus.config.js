@@ -12,7 +12,7 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/logo.png',
+  favicon: 'img/favicon.ico',
   organizationName: 'TheTridentOne', // Usually your GitHub org/user name.
   projectName: 'docs.thetrident.one', // Usually your repo name.
 
