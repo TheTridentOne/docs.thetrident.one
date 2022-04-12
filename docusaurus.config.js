@@ -86,7 +86,7 @@ const config = {
             position: "right",
           },
           {
-            href: "https://github.com/facebook/docusaurus",
+            href: "https://github.com/TheTridentOne/docs.thetrident.one",
             label: "GitHub",
             position: "right",
           },
