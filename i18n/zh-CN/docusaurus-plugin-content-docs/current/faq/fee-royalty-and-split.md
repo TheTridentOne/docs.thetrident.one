@@ -13,7 +13,7 @@ sidebar_position: 2
 
 ## 分红
 
-**分红(Split) 是 Trident 的一种创新模式**。
+**分红(Split) 是 Trident 区别于所有其他 NFT 交易市场的一种创新模式**。
 
 分红是合辑(Collection)的属性，创作者在创建合辑时可以自由设定，范围是 0%~10%，一旦设定，不可更改。
 
