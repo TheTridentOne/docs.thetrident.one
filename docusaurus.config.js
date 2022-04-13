@@ -72,8 +72,7 @@ const config = {
             type: "doc",
             docId: "intro",
             position: "left",
-            label: "Manuals",
-            title: "User Manuals",
+            label: "User Manuals"
           },
           {
             to: "/api/intro",
