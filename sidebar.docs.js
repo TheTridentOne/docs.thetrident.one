@@ -30,6 +30,7 @@ const sidebars = {
       label: "Tutorials",
       collapsed: false,
       items: [
+        "tutorials/how-to-create-collection",
         "tutorials/how-to-mint",
         "tutorials/how-to-sell",
         "tutorials/how-to-auction",
