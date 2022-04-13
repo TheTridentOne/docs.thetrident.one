@@ -29,13 +29,22 @@ const sidebars = {
       type: "category",
       label: "Tutorials",
       collapsed: false,
-      items: ["tutorials/how-to-mint"],
+      items: [
+        "tutorials/how-to-mint",
+        "tutorials/how-to-sell",
+        "tutorials/how-to-auction",
+        "tutorials/how-to-buy",
+      ],
     },
     {
       type: "category",
       label: "FAQ",
       collapsed: false,
-      items: ["faq/it-is-free-to-mint", "faq/fee-royalty-and-split"],
+      items: [
+        "faq/it-is-free-to-mint",
+        "faq/which-blockchains-does-trident-support",
+        "faq/fee-royalty-and-split",
+      ],
     },
   ],
 };

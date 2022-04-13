@@ -1,4 +1,5 @@
 ---
-title: How to mint an NFT?
-sidebar_position: 1
+title: How to mint NFTs?
 ---
+
+WIP

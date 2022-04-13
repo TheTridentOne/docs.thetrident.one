@@ -1,6 +1,5 @@
 ---
-title: 手续费、版权费和分红
-sidebar_position: 2
+title: 什么是手续费、版权费和分红？
 ---
 
 ## 手续费

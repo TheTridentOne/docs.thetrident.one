@@ -8,4 +8,4 @@ All NFTs are minted from a MTG(Mixin Trusted Group), which is a decentralized ne
 
 It will cost 0.001 XIN to mint a NFT. The fee is charged and decided by the MTG.
 
-See also [how to mint NFT](../how-to/how-to-mint.md).
+See also [how to mint NFT](../tutorials/how-to-mint.md).
