@@ -1,6 +1,5 @@
 ---
 title: It is free to mint?
-sidebar_position: 1
 ---
 
 Every one can mint NFTs in Mixin at very low cost, but it's not free.
