@@ -35,6 +35,7 @@ const sidebars = {
         "tutorials/how-to-sell",
         "tutorials/how-to-auction",
         "tutorials/how-to-buy",
+        "tutorials/what-is-a-verified-account-or-collection",
       ],
     },
     {
