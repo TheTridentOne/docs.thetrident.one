@@ -22,7 +22,7 @@ Types of accounts that will be considered for review.
 2. accounts with a high risk of impersonation.
 3. accounts that have been verified on other established social media platforms.
 
-## Compilation verification
+## Collection verification
 
 In principle, only collections created by high-profile public figures or organizations will be verified.
 

@@ -35,7 +35,6 @@ const sidebars = {
         "tutorials/how-to-sell",
         "tutorials/how-to-auction",
         "tutorials/how-to-buy",
-        "tutorials/what-is-a-verified-account-or-collection",
       ],
     },
     {
@@ -46,6 +45,7 @@ const sidebars = {
         "faq/it-is-free-to-mint",
         "faq/which-blockchains-does-trident-support",
         "faq/fee-royalty-and-split",
+        "faq/what-is-a-verified-account-or-collection",
       ],
     },
   ],
