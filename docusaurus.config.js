@@ -22,6 +22,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          routeBasePath: "/",
           sidebarPath: require.resolve("./sidebar.docs.js"),
           // Please change this to your repo.
           editUrl:
@@ -79,12 +80,6 @@ const config = {
         },
         items: [
           {
-            type: "doc",
-            docId: "intro",
-            position: "left",
-            label: "User Manuals",
-          },
-          {
             to: "/api/intro",
             label: "API",
             activeBaseRegex: `/api/`,
@@ -100,47 +95,6 @@ const config = {
             position: "right",
           },
         ],
-      },
-      footer: {
-        style: "dark",
-        links: [
-          {
-            title: "Docs",
-            items: [
-              {
-                label: "User Manuals",
-                to: "/docs/intro",
-              },
-              {
-                label: "API Docs",
-                to: "/api/intro",
-              },
-            ],
-          },
-          {
-            title: "Community",
-            items: [
-              {
-                label: "Twitter",
-                href: "https://twitter.com/trident_nft",
-              },
-            ],
-          },
-          {
-            title: "More",
-            items: [
-              {
-                label: "Blog",
-                to: "/blog",
-              },
-              {
-                label: "GitHub",
-                href: "https://github.com/TheTridentOne/docs.thetrident.one",
-              },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} Trident, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
