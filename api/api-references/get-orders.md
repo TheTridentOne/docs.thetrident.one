@@ -13,7 +13,7 @@ https://thetrident.one/api/orders
 
 ### Authorization
 
-Mixin authentication token for GET https://api.mixin.one/me with scope "FULL" is required.
+Mixin authentication token for GET https://api.mixin.one/me.
 
 With authentication token, it'll response with orders made by the account.
 
