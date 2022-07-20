@@ -1,6 +1,6 @@
 ---
 title: Update Metadata
-sidebar_position: 3
+sidebar_position: 6
 ---
 
 ## PUT /collectibles/:metahash

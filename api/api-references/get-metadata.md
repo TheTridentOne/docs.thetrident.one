@@ -1,6 +1,6 @@
 ---
 title: Get Metadata
-sidebar_position: 1
+sidebar_position: 5
 ---
 
 ## GET /collectibles/:metahash
