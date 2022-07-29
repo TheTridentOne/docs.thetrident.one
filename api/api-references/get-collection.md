@@ -3,7 +3,7 @@ title: Get Collection
 sidebar_position: 2
 ---
 
-## PUT /collections/:id
+## GET /collections/:id
 
 ### Endpoint URL
 
