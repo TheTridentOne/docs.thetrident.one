@@ -22,6 +22,7 @@ Visit [mixin developers doc](https://developers.mixin.one/docs/api/guide#signing
 ```json
 {
   "name": "Awsome collection",
+  "symbol": "Symol fo collection",
   "description": "This is an awesome collection",
   "external_url": "https://thetrident.one",
   "split": 0.05,
