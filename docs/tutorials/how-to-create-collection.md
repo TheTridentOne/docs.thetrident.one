@@ -4,7 +4,7 @@ title: How to create a collection?
 
 Before create NFTs, you need to create a collection for them first.
 
-With your Mixin Messenger connected, you can find the `create` button from the dropdown menu in the navbar.
+With your wallet connected, you can find the `create` button from the dropdown menu in the navbar.
 
 ![create-button](@site/static/img/docs/tutorials/create.png)
 

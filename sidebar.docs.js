@@ -42,6 +42,7 @@ const sidebars = {
       label: "FAQ",
       collapsed: false,
       items: [
+        "faq/how-it-works",
         "faq/it-is-free-to-mint",
         "faq/which-blockchains-does-trident-support",
         "faq/fee-royalty-and-split",

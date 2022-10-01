@@ -22,6 +22,6 @@ Then fill the form and click **Sell**.
 
 ![exchange-transfer](@site/static/img/docs/tutorials/exchange-transfer.png)
 
-Pay 0.00000001 CNB to Trident MTG to invoke the request.
+Pay 0.00000001 XIN to Trident MTG to invoke the request.
 
 And then you should receive the success notification.
