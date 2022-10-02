@@ -39,6 +39,15 @@ const sidebars = {
     },
     {
       type: "category",
+      label: 'Assistant',
+      collapsed: false,
+      items: [
+        "assistant/why-assistant",
+        "assistant/how-it-works"
+      ],
+    },
+    {
+      type: "category",
       label: "FAQ",
       collapsed: false,
       items: [

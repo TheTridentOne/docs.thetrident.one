@@ -1,5 +1,5 @@
 ---
-title: How it works?
+title: How Trident works?
 ---
 
 Unlike the account-balance model of Ethereum, Mixin Network is based on the UTXO model, like Bitcoin. So Mixin NFTs work a little bit differently from Ethereum NFTs.
