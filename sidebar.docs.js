@@ -43,7 +43,8 @@ const sidebars = {
       collapsed: false,
       items: [
         "assistant/why-assistant",
-        "assistant/how-it-works"
+        "assistant/how-it-works",
+        "assistant/faq",
       ],
     },
     {
