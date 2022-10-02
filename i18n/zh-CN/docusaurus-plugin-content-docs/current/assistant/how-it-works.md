@@ -28,7 +28,7 @@ Mixin Messenger 的用户都知道，每次转账都必须输入 6 位数字 PIN
 
 [Trident Assistant](https://assistant.thetrident.one) 就是基于 Mixin 机器人来实现批量操作 NFT 的。
 
-在使用 [Trident Assistant](https://assistant.thetrident.one) 之前，得先在 Mixin 开发者后台注册一个 Mixin 机器人。每一个 Mixin Messenger 帐号至少可以免费注册一个 Mixin 机器人，注册网址是 https://development.mixin.one/dashboard 。
+在使用 [Trident Assistant](https://assistant.thetrident.one) 之前，得先在 [Mixin 开发者后台](https://developers.mixin.one/dashboard)注册一个 Mixin 机器人。每一个 Mixin Messenger 帐号至少可以免费注册一个 Mixin 机器人，注册网址是 https://developers.mixin.one/dashboard 。
 
 有了 Mixin 机器人后，下载应用 session 可以得到一个 `keystore.json` 文件，即机器人的密钥。利用 `keystore.json` 文件即可登录 [Trident Assistant](https://assistant.thetrident.one) 使用。
 
