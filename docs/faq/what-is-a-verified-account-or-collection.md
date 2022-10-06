@@ -36,4 +36,4 @@ Even if a collection meets the above criteria, it does not necessarily mean that
 
 ## How to apply
 
-For now, just DM @36783023 on Mixin.
+For now, just DM @1051445 on Mixin.
