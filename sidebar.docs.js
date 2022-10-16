@@ -44,6 +44,8 @@ const sidebars = {
       items: [
         "assistant/why-assistant",
         "assistant/how-it-works",
+        "assistant/how-to-login",
+        "assistant/how-to-generate-nft",
         "assistant/faq",
       ],
     },
