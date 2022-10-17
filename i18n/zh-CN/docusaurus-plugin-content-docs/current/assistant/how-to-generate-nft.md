@@ -74,11 +74,21 @@ title: 如何批量生成 NFT
 
 将这些 metadata 文件打包成一个 `.zip` 压缩包。
 
-## 准备 assets
+## 上传源文件
 
-除了 metadata，NFT 另一个重要的信息是源文件，一般是一张图片，即上述 metadata 中的 `image` 属性所指代的 `1.png`。保证图片文件名与相应的 metadata 中指代的一致。
+NFT 的源文件一般是图片，铸造 NFT 的时候，源文件并不会上链，但是源文件的唯一哈希值会上链，所以源文件的存储相对不重要，主要是用于展示。只要是同一份文件（能计算出相同的唯一哈希值），展示的链接可以变更。
 
-将所有图片文件打包成另一个 `.zip` 压缩包。
+你可以将你的源文件上传至自建的云存储，比如云服务商的对象存储，在生成 metadata 文件时，`image` 请改成对应的图片链接。
+
+也可以上传至 Assistant 平台。在 Attachments 标签下，点击 `Upload` 按钮，选择要上传的源文件即可。
+
+![collection-attachments-tab](@site/static/img/docs/assistant/collection-attachments-tab.png)
+
+![collection-upload-attachments](@site/static/img/docs/assistant/collection-upload-attachments.png)
+
+:::warning
+上传的源文件文件名必须与 metadata 中`image` 所指一致。
+:::
 
 ## 创建任务
 
@@ -86,7 +96,7 @@ title: 如何批量生成 NFT
 
 ![collection-tabs](@site/static/img/docs/assistant/collection-tabs.png)
 
-需要为 NFT 指定一个统一的 royalty，即创作者版税比例，比如 0.05。然后分别上传 `metadata.zip` 和 `assets.zip`，再点击 `Save` 即可。
+需要为 NFT 指定一个统一的 royalty，即创作者版税比例，比如 0.05。然后上传 `metadata.zip`，再点击 `Save` 即可。
 
 ![generate-nft-task-form](@site/static/img/docs/assistant/generate-nft-task-form.png)
 
