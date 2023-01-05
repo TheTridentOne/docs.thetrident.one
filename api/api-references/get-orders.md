@@ -26,6 +26,7 @@ With authentication token, it'll response with orders made by the account.
 | `state`         | `open` \| `completed`              |
 | `type`          | `ask` \| `bid` \| `auction`        |
 | `page`          | pagination                         |
+| `limit`         | limit, default= 100, max = 500     |
 
 ### Example Request
 
